@@ -43,20 +43,20 @@ h1 {
 .grid-container {
   display: grid;
   width: 260px;
-  height: 400px;
+  height: 300px;
   margin: 10px auto;
   grid-template-areas: "head head"
                        "progress-bar progress-bar"
                        "body body"
                        "dollar-input submit-button"
                        "later friends";
-  grid-template-columns: 1fr 1fr;
+  grid-template-columns: 130px 130px;
   grid-template-rows: 50px 13px 114px 80px 50px;
   font-family: "rooney-sans", Avenir-Book, Calibri, sans-serif;
 }
 
 .head {
-  /* font-family: "rooney-sans", Avenir-Book, Calibri, sans-serif; */
+
   color: #eaeaea;
   font-size: 13.5px;
   background-color: #424242;
@@ -80,7 +80,7 @@ h1 {
 .body {
   color: #777;
   font-size: 13px;
-  /* font-family: "rooney-sans", Avenir-Book, Calibri, sans-serif; */
+
   grid-area: body;
   border-left: 1px solid #eaeaea;
   border-right: 1px solid #eaeaea;
@@ -107,37 +107,42 @@ h1 {
 .input-container {
   margin: 0 18px;
   border-radius: 2px;
+  height: 45px;
+  width: 100px;
   border: 1px solid #eaeaea;
 }
 
 .input-container p {
   font-weight: bold;
   color: #777;
-  /* font-family: "rooney-sans", Avenir-Book, Calibri, sans-serif; */
+  margin-left: 5px;
 }
 
 .dollar-input p, .dollar-input {
   display: inline-block;
 }
 
+.dollar-input p {
+  margin-left: 18px;
+}
+
 input#numinput {
-  width: 80%;
-  height: 50px;
+  width: 50px;
+  height: 45px;
   border: none;
-  /* font-family: "rooney-sans", Avenir-Book, Calibri, sans-serif; */
   font-weight: bold;
-  font-size: 18px;
+  font-size: 15px;
 }
 
 input#submit {
   background-color: #1CBC2C;
-  width: 80%;
-  height: 50px;
+  width: 113px;
+  height: 45px;
   border: none;
   border-radius: 3px;
   color: #eaeaea;
-  font-size: 18px;
-  /* font-family: "rooney-sans", Avenir-Book, Calibri, sans-serif; */
+  font-size: 14px;
+  font-weight: bold;
 }
 
 .submit-button {
@@ -153,7 +158,7 @@ input#save {
   border-radius: 3px;
   color: #424242;
   font-size: 18px;
-  /* font-family: "rooney-sans", Avenir-Book, Calibri, sans-serif; */
+
 }
 
 input#social {
@@ -163,7 +168,7 @@ input#social {
   border-radius: 3px;
   color: #424242;
   font-size: 18px;
-  /* font-family: "rooney-sans", Avenir-Book, Calibri, sans-serif; */
+
 }
 
 .save {
@@ -175,5 +180,5 @@ input#social {
 }
 
 .footer {
-  /* font-family: "rooney-sans", Avenir-Book, Calibri, sans-serif; */
+
 }
