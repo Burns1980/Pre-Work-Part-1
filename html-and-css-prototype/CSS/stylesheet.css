@@ -60,9 +60,21 @@ h1 {
   font-size: 13.5px;
   background-color: #424242;
   grid-area: head;
+  position: relative;
   margin-bottom: 10px;
   border-radius: 3px;
   text-align: center;
+}
+
+.head::after {
+  content: " ";
+  position: absolute;
+  right: 30px;
+  bottom: -7px;
+  border-top: 7px solid #424242;
+  border-right: 4px solid transparent;
+  border-left: 4px solid transparent;
+  border-bottom: none;
 }
 
 .head p {
