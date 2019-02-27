@@ -122,13 +122,24 @@ h1 {
   display: inline-block;
 }
 
-.dollar-input p {
+/* .dollar-input p {
+  margin-left: 5px;
+} */
+
+.dollar-input > p {
   margin-left: 18px;
+  font-family: "rooney-web", "AmericanTypewriter", Rockwell, serif;
+  font-size: 12px;
+}
+
+a {
+  color: #20A1D4;
+  text-decoration: none;
 }
 
 input#numinput {
   width: 50px;
-  height: 45px;
+  height: 40px;
   border: none;
   font-weight: bold;
   font-size: 15px;
