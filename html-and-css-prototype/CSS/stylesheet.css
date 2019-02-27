@@ -49,9 +49,9 @@ h1 {
                        "progress-bar progress-bar"
                        "body body"
                        "dollar-input submit-button"
-                       "footer footer";
+                       "later friends";
   grid-template-columns: 1fr 1fr;
-  grid-template-rows: 40px 15px 150px 125px 100px;
+  grid-template-rows: 40px 15px 130px 80px 100px;
 }
 
 .head {
@@ -100,13 +100,61 @@ h1 {
   display: inline-block;
 }
 
+input#numinput {
+  width: 80%;
+  height: 50px;
+  border-radius: 3px;
+  border: 1px solid #eaeaea;
+  font-family: "rooney-sans", Avenir-Book, Calibri, sans-serif;
+  font-weight: bold;
+  font-size: 18px;
+}
+
+input#submit {
+  background-color: #1CBC2C;
+  width: 80%;
+  height: 50px;
+  border: none;
+  border-radius: 3px;
+  color: #eaeaea;
+  font-size: 18px;
+  font-family: "rooney-sans", Avenir-Book, Calibri, sans-serif;
+}
+
 .submit-button {
   grid-area: submit-button;
   border-right: 1px solid #eaeaea;
   border-bottom: 1px solid #eaeaea;
 }
 
+input#save {
+  background-color: #eaeaea;
+  height: 20px;
+  border: none;
+  border-radius: 3px;
+  color: #424242;
+  font-size: 18px;
+  font-family: "rooney-sans", Avenir-Book, Calibri, sans-serif;
+}
+
+input#social {
+  background-color: #eaeaea;
+  height: 20px;
+  border: none;
+  border-radius: 3px;
+  color: #424242;
+  font-size: 18px;
+  font-family: "rooney-sans", Avenir-Book, Calibri, sans-serif;
+}
+
+.save {
+  grid-area: later;
+}
+
+.social {
+  grid-area: friends;
+}
+
 .footer {
   font-family: "rooney-sans", Avenir-Book, Calibri, sans-serif;
-  grid-area: footer;
 }
