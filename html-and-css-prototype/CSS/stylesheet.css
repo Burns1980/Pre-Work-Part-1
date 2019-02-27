@@ -163,23 +163,28 @@ input#submit {
 }
 
 input#save {
-  background-color: #eaeaea;
-  height: 20px;
-  border: none;
-  border-radius: 3px;
-  color: #424242;
-  font-size: 18px;
-
+  background-color: white;
+  height: 35px;
+  width: 125px;
+  margin-top: 10px;
+  border: 2px solid #eaeaea;
+  border-radius: 4px;
+  color: #777;
+  font-size: 12px;
+  font-weight: bold;
 }
 
 input#social {
-  background-color: #eaeaea;
-  height: 20px;
-  border: none;
-  border-radius: 3px;
-  color: #424242;
-  font-size: 18px;
-
+  background-color: white;
+  height: 35px;
+  width: 125px;
+  margin-top: 10px;
+  margin-left: 5px;
+  border: 2px solid #eaeaea;
+  border-radius: 4px;
+  color: #777;
+  font-size: 12px;
+  font-weight: bold;
 }
 
 .save {
@@ -188,8 +193,4 @@ input#social {
 
 .social {
   grid-area: friends;
-}
-
-.footer {
-
 }
