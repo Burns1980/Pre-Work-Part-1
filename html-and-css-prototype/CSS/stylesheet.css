@@ -103,10 +103,10 @@ h1 {
 }
 
 .input-container {
-  margin: 0 18px;
+  margin-left: 18px;
   border-radius: 2px;
   height: 45px;
-  width: 100px;
+  width: 102px;
   border: 1px solid #eaeaea;
 }
 
@@ -120,10 +120,6 @@ h1 {
   display: inline-block;
 }
 
-/* .dollar-input p {
-  margin-left: 5px;
-} */
-
 .dollar-input > p {
   margin-left: 18px;
   font-family: "rooney-web", "AmericanTypewriter", Rockwell, serif;
@@ -136,16 +132,16 @@ a {
 }
 
 input#numinput {
-  width: 50px;
+  width: 70px;
   height: 40px;
   border: none;
   font-weight: bold;
-  font-size: 15px;
+  font-size: 16px;
 }
 
 input#submit {
   background-color: #1CBC2C;
-  width: 113px;
+  width: 108px;
   height: 45px;
   border: none;
   border-radius: 3px;
@@ -155,6 +151,7 @@ input#submit {
 }
 
 .submit-button {
+  margin-left: 5px;
   grid-area: submit-button;
   border-right: 1px solid #eaeaea;
   border-bottom: 1px solid #eaeaea;
@@ -163,7 +160,7 @@ input#submit {
 input#save {
   background-color: white;
   height: 35px;
-  width: 125px;
+  width: 123px;
   margin-top: 10px;
   border: 2px solid #eaeaea;
   border-radius: 4px;
