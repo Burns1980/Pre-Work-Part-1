@@ -42,44 +42,52 @@ h1 {
 /* Your CSS code goes here */
 .grid-container {
   display: grid;
-  /* grid-gap: 50px; */
-  width: 275px;
-  height: 600px;
+  width: 260px;
+  height: 400px;
+  margin: 10px auto;
   grid-template-areas: "head head"
                        "progress-bar progress-bar"
                        "body body"
                        "dollar-input submit-button"
                        "later friends";
   grid-template-columns: 1fr 1fr;
-  grid-template-rows: 40px 15px 130px 80px 100px;
+  grid-template-rows: 50px 13px 114px 80px 50px;
+  font-family: "rooney-sans", Avenir-Book, Calibri, sans-serif;
 }
 
 .head {
-  font-family: "rooney-sans", Avenir-Book, Calibri, sans-serif;
+  /* font-family: "rooney-sans", Avenir-Book, Calibri, sans-serif; */
   color: #eaeaea;
-  font-size: 14px;
-  background-color: black;
+  font-size: 13.5px;
+  background-color: #424242;
   grid-area: head;
   margin-bottom: 10px;
-  border-radius: 2px;
+  border-radius: 3px;
+  text-align: center;
+
+}
+
+.head p {
+  margin-top: 10.5px;
 }
 
 .progress-bar {
   grid-area: progress-bar;
   border: 1px solid #eaeaea;
-  background: linear-gradient(to right, #EF5F3C 70%, white 30%);
+  background: linear-gradient(to right, #EF5F3C 75%, white 30%);
 }
 
 .body {
+  color: #777;
   font-size: 13px;
-  font-family: "rooney-sans", Avenir-Book, Calibri, sans-serif;
+  /* font-family: "rooney-sans", Avenir-Book, Calibri, sans-serif; */
   grid-area: body;
   border-left: 1px solid #eaeaea;
   border-right: 1px solid #eaeaea;
 }
 
 .body p {
-  margin: 20px 20px;
+  margin: 13px 18px;
 }
 
 #threedays {
@@ -96,6 +104,18 @@ h1 {
   border-bottom: 1px solid #eaeaea;
 }
 
+.input-container {
+  margin: 0 18px;
+  border-radius: 2px;
+  border: 1px solid #eaeaea;
+}
+
+.input-container p {
+  font-weight: bold;
+  color: #777;
+  /* font-family: "rooney-sans", Avenir-Book, Calibri, sans-serif; */
+}
+
 .dollar-input p, .dollar-input {
   display: inline-block;
 }
@@ -103,9 +123,8 @@ h1 {
 input#numinput {
   width: 80%;
   height: 50px;
-  border-radius: 3px;
-  border: 1px solid #eaeaea;
-  font-family: "rooney-sans", Avenir-Book, Calibri, sans-serif;
+  border: none;
+  /* font-family: "rooney-sans", Avenir-Book, Calibri, sans-serif; */
   font-weight: bold;
   font-size: 18px;
 }
@@ -118,7 +137,7 @@ input#submit {
   border-radius: 3px;
   color: #eaeaea;
   font-size: 18px;
-  font-family: "rooney-sans", Avenir-Book, Calibri, sans-serif;
+  /* font-family: "rooney-sans", Avenir-Book, Calibri, sans-serif; */
 }
 
 .submit-button {
@@ -134,7 +153,7 @@ input#save {
   border-radius: 3px;
   color: #424242;
   font-size: 18px;
-  font-family: "rooney-sans", Avenir-Book, Calibri, sans-serif;
+  /* font-family: "rooney-sans", Avenir-Book, Calibri, sans-serif; */
 }
 
 input#social {
@@ -144,7 +163,7 @@ input#social {
   border-radius: 3px;
   color: #424242;
   font-size: 18px;
-  font-family: "rooney-sans", Avenir-Book, Calibri, sans-serif;
+  /* font-family: "rooney-sans", Avenir-Book, Calibri, sans-serif; */
 }
 
 .save {
@@ -156,5 +175,5 @@ input#social {
 }
 
 .footer {
-  font-family: "rooney-sans", Avenir-Book, Calibri, sans-serif;
+  /* font-family: "rooney-sans", Avenir-Book, Calibri, sans-serif; */
 }
