@@ -72,14 +72,13 @@ h1 {
 .progress-bar {
   grid-area: progress-bar;
   border: 1px solid #eaeaea;
-  background: linear-gradient(to right, #EF5F3C 75%, white 30%);
+  background: linear-gradient(to right, #EF5F3C 75%, white 25%);
 }
 
 .body {
+  grid-area: body;
   color: #777;
   font-size: 13px;
-
-  grid-area: body;
   border-left: 1px solid #eaeaea;
   border-right: 1px solid #eaeaea;
 }
@@ -151,16 +150,15 @@ input#submit {
 }
 
 .submit-button {
-  margin-left: 5px;
   grid-area: submit-button;
+  margin-left: 5px;
   border-right: 1px solid #eaeaea;
   border-bottom: 1px solid #eaeaea;
 }
 
-input#save {
+input#save, input#social {
   background-color: white;
   height: 35px;
-  width: 123px;
   margin-top: 10px;
   border: 2px solid #eaeaea;
   border-radius: 4px;
@@ -169,17 +167,13 @@ input#save {
   font-weight: bold;
 }
 
+input#save {
+  width: 123px;
+}
+
 input#social {
-  background-color: white;
-  height: 35px;
   width: 125px;
-  margin-top: 10px;
   margin-left: 5px;
-  border: 2px solid #eaeaea;
-  border-radius: 4px;
-  color: #777;
-  font-size: 12px;
-  font-weight: bold;
 }
 
 .save {
